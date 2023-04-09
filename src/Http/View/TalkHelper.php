@@ -51,19 +51,31 @@ class TalkHelper
 
         if ($categories === null) {
             $categories = [
-                'api'                => 'APIs (REST, SOAP, etc.)',
+                'api' => 'APIs',
+                'architecturedesign' => 'Architecture & Design',
+                'automation' => 'Automation',
+                'bigdataanalytics' => 'Big Data & Analytics',
+                'cloudTechnologies' => 'Cloud Technologies',
+                'containertechnology' => 'Container Technology',
                 'continuousdelivery' => 'Continuous Delivery',
-                'database'           => 'Database',
-                'development'        => 'Development',
-                'devops'             => 'Devops',
-                'framework'          => 'Framework',
-                'ibmi'               => 'IBMi',
-                'javascript'         => 'JavaScript',
-                'personal'           => 'Personal Skills',
-                'security'           => 'Security',
-                'testing'            => 'Testing',
-                'uiux'               => 'UI/UX',
-                'other'              => 'Other',
+                'database' => 'Database',
+                'development' => 'Development',
+                'devops' => 'Devops',
+                'envirosust' => 'Environmental Sustainability',
+                'framework' => 'Frameworks-related topics',
+                'iot' => 'IoT',
+                'javascript' => 'JavaScript',
+                'languagesdev' => 'Programming Languages',
+                'loggingmonitoring' => 'Logging & Monitoring',
+                'microservices' => 'Microservices',
+                'mobile' => 'Mobile Development',
+                'personal' => 'Professional Development',
+                'security' => 'Security',
+                'serverless' => 'Serverless',
+                'servicemesh' => 'ServiceMesh',
+                'testing' => 'Testing',
+                'uiux' => 'UI/UX',
+                'other' => 'Other',
             ];
         }
 
@@ -95,6 +107,7 @@ class TalkHelper
             $types = [
                 'regular'  => 'Regular',
                 'tutorial' => 'Tutorial',
+                'lightningtalk' => 'Lightning talk',
             ];
         }
 
