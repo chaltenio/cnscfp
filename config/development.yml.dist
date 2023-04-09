@@ -1,29 +1,36 @@
 application:
-  title: OpenCFP
-  url: http://localhost
-  email: contact@openconf.com
-  eventurl: http://localhost
-  event_location: Miami, FL
+  title: Cloud Native Summit
+  url: https://cfp.mate.dev
+  email: chris@mate.dev
+  eventurl: http://myenvent.com
+  event_location: Wellington, NZ
   enddate: Oct. 14th, 2100
   show_submission_count: false
-  airport: MIA
-  arrival: 2018-10-26
-  departure: 2018-10-26
-  secure_ssl: false
+  airport: WGN
+  arrival: 2025-10-26
+  departure: 2025-10-31
+  secure_ssl: true
   online_conference: false
   date_format: d/m/Y
   date_timezone: "UTC"
-  coc_link: http://confcodeofconduct.com/
+  coc_link: https://mate.dev/codeofconduct
   venue_image_path: /assets/img/venue.jpg
   user_image_size: 300
   anonymized_reviews: false
+
+  organization: Cloud Native Summit
+  orgurl: cloudnativesummit.co
+  twitterevent: cloudnativego
+  hashtag: cloudnativeANZ
+  googleAnalytics: G-N6EEXMSGRH
+  linkedinPage: https://www.linkedin.com/company/cloud-native-australia-newzealand
 
 database:
   host: 127.0.0.1
   database: cfp
   dsn: mysql:dbname=cfp;host=127.0.0.1
   user: root
-  password: root
+  password: ~
 
 log:
   level: debug
@@ -38,16 +45,28 @@ mail:
 
 talk:
   categories:
-    api: APIs (REST, SOAP, etc.)
+    api: APIs
+    architecturedesign: Architecture & Design
+    automation: Automation
+    bigdataanalytics: Big Data & Analytics
+    cloudTechnologies: Cloud Technologies
+    containertechnology: Container Technology
     continuousdelivery: Continuous Delivery
     database: Database
     development: Development
     devops: Devops
-    framework: Framework
-    ibmi: IBMi
+    envirosust: Environmental Sustainability
+    framework: Frameworks-related topics
+    iot: IoT
     javascript: JavaScript
-    personal: Personal Skills
+    languagesdev: Programming Languages
+    loggingmonitoring: Logging & Monitoring
+    microservices: Microservices
+    mobile: Mobile Development
+    personal: Professional Development
     security: Security
+    serverless: Serverless
+    servicemesh: ServiceMesh
     testing: Testing
     uiux: UI/UX
     other: Other
@@ -56,8 +75,9 @@ talk:
     mid: Mid-level
     advanced: Advanced
   types:
-    regular: Regular (50 mins)
-    Autorial: Tutorial (3 hrs)
+    regular: Regular (25 mins)
+    lightningtalk: Lightning talk (10 mins - Pre-Conference)
+    tutorial: Tutorial (3 hrs - Pre-Conference)
 
 reviewer:
   users:
