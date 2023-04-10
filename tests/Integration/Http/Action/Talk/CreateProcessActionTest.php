@@ -148,6 +148,6 @@ final class CreateProcessActionTest extends WebTestCase implements Transactional
                 'token'       => $csrfToken,
                 'token_id'    => 'speaker_talk',
             ]);
-        $this->assertSessionHasFlashMessage('Your talk was saved but we could not send a confirmation email', $this->session());
+        $this->assertSessionHasFlashMessage('Thanks! Your talk was saved but we could not send a confirmation email to you. We will process your submission shortly.', $this->session());
     }
 }

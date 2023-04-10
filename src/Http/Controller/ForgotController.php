@@ -88,7 +88,7 @@ class ForgotController extends BaseController
             $request->getSession()->set('flash', [
                 'type'  => 'error',
                 'short' => 'Error',
-                'ext'   => 'We were unable to send your password reset request. Please try again',
+                'ext'   => 'We were unable to send your password reset request. Please try again or please contact chris@cloudnativesummit.co' ,
             ]);
 
             return $this->redirectTo('forgot_password');

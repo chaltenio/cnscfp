@@ -179,7 +179,7 @@ final class CreateProcessAction
             $request->getSession()->set('flash', [
                 'type'  => 'error',
                 'short' => 'Error',
-                'ext'   => 'Your talk was saved but we could not send a confirmation email',
+                'ext'   => 'Thanks! Your talk was saved but we could not send a confirmation email to you. We will process your submission shortly.',
             ]);
         }
 
