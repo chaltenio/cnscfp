@@ -1,7 +1,7 @@
 application:
   title: OpenCFP
   url: http://localhost
-  email: contact@openconf.com
+  email: talks@mate.dev
   eventurl: http://localhost
   event_location: Miami, FL
   enddate: Dec. 31st, 2100

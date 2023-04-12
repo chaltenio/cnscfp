@@ -1,14 +1,14 @@
 application:
   title: Cloud Native Summit
-  url: https://cfp.mate.dev
-  email: chris@mate.dev
-  eventurl: http://myenvent.com
-  event_location: Wellington, NZ
-  enddate: Oct. 14th, 2100
+  url: https://cfp.cloudnativesummit.co
+  email: team@cloudnativesummit.co
+  eventurl: https://www.cloudnativesummit.co
+  event_location: Wellington, New Zealand (Tākina Wellington Convention & Exhibition Centre)
+  enddate: Sept. 5th, 2023
   show_submission_count: false
-  airport: WGN
-  arrival: 2025-10-26
-  departure: 2025-10-31
+  airport: WLG
+  arrival: 2023-09-04
+  departure: 2023-09-05
   secure_ssl: true
   online_conference: false
   date_format: d/m/Y
@@ -22,24 +22,23 @@ application:
   orgurl: cloudnativesummit.co
   twitterevent: cloudnativego
   hashtag: cloudnativeANZ
-  googleAnalytics: G-N6EEXMSGRH
-  linkedinPage: https://www.linkedin.com/company/cloud-native-australia-newzealand
+  googleAnalytics: changeme
 
 database:
   host: 127.0.0.1
   database: cfp
   dsn: mysql:dbname=cfp;host=127.0.0.1
   user: root
-  password: ~
+  password: changeme
 
 log:
-  level: debug
+  level: error
 
 mail:
-  host: ~
-  port: ~
-  username: ~
-  password: ~
+  host: smtp.sendgrid.net
+  port: 587
+  username: apikey
+  password: changeme
   encryption: ~
   auth_mode: ~
 
@@ -70,6 +69,7 @@ talk:
     testing: Testing
     uiux: UI/UX
     other: Other
+
   levels:
     entry: Entry level
     mid: Mid-level
@@ -91,3 +91,7 @@ opencfpcentral:
   redirectUri: http://localhost/sso/redirect
   resourceUri: https://www.opencfpcentral.com/api/user
   tokenUrl: https://www.opencfpcentral.com/oauth/token
+  
+  
+  
+ 
