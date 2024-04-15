@@ -69,6 +69,7 @@ class TalkHelper
                 'loggingmonitoring' => 'Logging & Monitoring',
                 'microservices' => 'Microservices',
                 'mobile' => 'Mobile Development',
+                'networking' => 'Networking',
                 'personal' => 'Professional Development',
                 'security' => 'Security',
                 'serverless' => 'Serverless',
